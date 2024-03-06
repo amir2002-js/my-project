@@ -1,4 +1,4 @@
-
+import userInfo from "../data/user"
 const Footer = () => {
   return (
     <footer className="container fixed bottom-0 right-0 left-0 max-w-screen-xl border-t border-t-gray-300">
@@ -32,7 +32,9 @@ const Footer = () => {
         </span>
 
         <span>
-          <div className="w-6 h6 bg-black rounded-full">logo</div>
+          <div className="w-6 h-6 rounded-full">
+            <img src={userInfo.profileSrc} alt="" className="w-6 h-6 rounded-full" />
+          </div>
         </span>
       </div>
     </footer>
