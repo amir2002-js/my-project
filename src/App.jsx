@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="max-w-screen-xl container">
     <Header/>
-    
+    <main></main>
    <Footer/>
     </div>
   )
