@@ -33,7 +33,7 @@ const Footer = () => {
 
         <span>
           <div className="w-6 h-6 rounded-full">
-            <img src={userInfo.profileSrc} alt="" className="w-6 h-6 rounded-full" />
+            <img src={userInfo.profileSrc} alt="" className=" object-cover aspect-square rounded-full" />
           </div>
         </span>
       </div>
